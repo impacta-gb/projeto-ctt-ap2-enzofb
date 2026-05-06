@@ -104,6 +104,6 @@ Exemplo simples:
 title = "Documentação Go" ```
 
 ``` toml
-[build]
+`[build]`
 source = "docs"
 output = "site" ```
