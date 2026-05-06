@@ -1,5 +1,8 @@
 name: Deploy Zensical Site
 
+permissions:
+  contents: write
+
 on:
   pull_request:
     branches:
