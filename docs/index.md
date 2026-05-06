@@ -15,4 +15,4 @@ Bem-vindo ao site de documentação da linguagem Go.
 
 ## Objetivo
 
-Este projeto foi desenvolvido para a disciplina de CTT utilizando Zensical.
+Este projeto tem como objetivo mostrar a Documentação GO da AP2 de CTT.
