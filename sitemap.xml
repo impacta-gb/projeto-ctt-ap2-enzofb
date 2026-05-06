@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+      <url>
+        <loc>https://www.documentacaogo.com/</loc>
+      </url>
+      <url>
+        <loc>https://www.documentacaogo.com/arrays/</loc>
+      </url>
+      <url>
+        <loc>https://www.documentacaogo.com/channels/</loc>
+      </url>
+      <url>
+        <loc>https://www.documentacaogo.com/goroutines/</loc>
+      </url>
+      <url>
+        <loc>https://www.documentacaogo.com/structs/</loc>
+      </url>
 </urlset>
