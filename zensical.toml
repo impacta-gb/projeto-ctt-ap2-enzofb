@@ -47,7 +47,7 @@ copyright = "&copy; 2026 Enzo Faria Braga"
 #   { "Arrays" = "arrays.md" },
 #   { "Channels" = "channels.md" },
 #   { "Goroutines" = "goroutines.md" },
-#   { "Structs" = "structs.md" },
+#   { "Structs" = "structs.md" }
 # ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
