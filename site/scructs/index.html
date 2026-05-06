@@ -13,10 +13,8 @@
       
       
       
-        <link rel="prev" href="../channels/">
+        <link rel="prev" href="../goroutines/">
       
-      
-        <link rel="next" href="../scructs/">
       
       
         
@@ -27,7 +25,7 @@
     
     
       
-        <title>Goroutines - Documentação GO</title>
+        <title>Structs em Go - Documentação GO</title>
       
     
     
@@ -83,7 +81,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#goroutines" class="md-skip">
+        <a href="#structs-em-go" class="md-skip">
           Pular para conteúdo
         </a>
       
@@ -119,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Goroutines
+              Structs em Go
             
           </span>
         </div>
@@ -297,6 +295,34 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../goroutines/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22.27 19.385H1.73A1.73 1.73 0 0 1 0 17.655V6.345a1.73 1.73 0 0 1 1.73-1.73h20.54A1.73 1.73 0 0 1 24 6.345v11.308a1.73 1.73 0 0 1-1.73 1.731zM5.769 15.923v-4.5l2.308 2.885 2.307-2.885v4.5h2.308V8.078h-2.308l-2.307 2.885-2.308-2.885H3.46v7.847zM21.232 12h-2.309V8.077h-2.307V12h-2.308l3.461 4.039z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Goroutines
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -313,12 +339,10 @@
           
   
   
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22.27 19.385H1.73A1.73 1.73 0 0 1 0 17.655V6.345a1.73 1.73 0 0 1 1.73-1.73h20.54A1.73 1.73 0 0 1 24 6.345v11.308a1.73 1.73 0 0 1-1.73 1.731zM5.769 15.923v-4.5l2.308 2.885 2.307-2.885v4.5h2.308V8.078h-2.308l-2.307 2.885-2.308-2.885H3.46v7.847zM21.232 12h-2.309V8.077h-2.307V12h-2.308l3.461 4.039z"/></svg>
-  
   <span class="md-ellipsis">
     
   
-  Goroutines
+  Structs em Go
 
     
   </span>
@@ -332,12 +356,10 @@
         
   
   
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22.27 19.385H1.73A1.73 1.73 0 0 1 0 17.655V6.345a1.73 1.73 0 0 1 1.73-1.73h20.54A1.73 1.73 0 0 1 24 6.345v11.308a1.73 1.73 0 0 1-1.73 1.731zM5.769 15.923v-4.5l2.308 2.885 2.307-2.885v4.5h2.308V8.078h-2.308l-2.307 2.885-2.308-2.885H3.46v7.847zM21.232 12h-2.309V8.077h-2.307V12h-2.308l3.461 4.039z"/></svg>
-  
   <span class="md-ellipsis">
     
   
-  Goroutines
+  Structs em Go
 
     
   </span>
@@ -363,10 +385,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#exemplo" class="md-nav__link">
+  <a href="#exemplo-basico" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
-        Exemplo
+        Exemplo básico
       </span>
     </span>
   </a>
@@ -374,10 +396,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#docsmarkdownmd" class="md-nav__link">
+  <a href="#como-funcionam" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
-        <code>docs/markdown.md</code>
+        Como funcionam
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vantagens" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Vantagens
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodos-em-structs" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Métodos em Structs
       </span>
     </span>
   </a>
@@ -388,32 +432,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../scructs/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-  Structs em Go
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -459,10 +477,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#exemplo" class="md-nav__link">
+  <a href="#exemplo-basico" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
-        Exemplo
+        Exemplo básico
       </span>
     </span>
   </a>
@@ -470,10 +488,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#docsmarkdownmd" class="md-nav__link">
+  <a href="#como-funcionam" class="md-nav__link">
     <span class="md-ellipsis">
       <span class="md-typeset">
-        <code>docs/markdown.md</code>
+        Como funcionam
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vantagens" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Vantagens
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodos-em-structs" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Métodos em Structs
       </span>
     </span>
   </a>
@@ -503,67 +543,63 @@
                 
                   
 
-<h1 id="goroutines">Goroutines<a class="headerlink" href="#goroutines" title="Permanent link">&para;</a></h1>
-<p>Goroutines permitem executar funções concorrentemente.</p>
-<h2 id="exemplo">Exemplo<a class="headerlink" href="#exemplo" title="Permanent link">&para;</a></h2>
+<h1 id="structs-em-go">Structs em Go<a class="headerlink" href="#structs-em-go" title="Permanent link">&para;</a></h1>
+<p>Structs são estruturas utilizadas para agrupar diferentes tipos de dados em um único objeto.</p>
+<h2 id="exemplo-basico">Exemplo básico<a class="headerlink" href="#exemplo-basico" title="Permanent link">&para;</a></h2>
 <div class="language-go highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">package</span><span class="w"> </span><span class="nx">main</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kn">import</span><span class="w"> </span><span class="p">(</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="s">&quot;fmt&quot;</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="s">&quot;time&quot;</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="p">)</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="kd">func</span><span class="w"> </span><span class="nx">tarefa</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&quot;Executando...&quot;</span><span class="p">)</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="p">}</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="kd">func</span><span class="w"> </span><span class="nx">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="k">go</span><span class="w"> </span><span class="nx">tarefa</span><span class="p">()</span>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">    </span><span class="nx">time</span><span class="p">.</span><span class="nx">Sleep</span><span class="p">(</span><span class="nx">time</span><span class="p">.</span><span class="nx">Second</span><span class="p">)</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="p">}</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kn">import</span><span class="w"> </span><span class="s">&quot;fmt&quot;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="kd">type</span><span class="w"> </span><span class="nx">Pessoa</span><span class="w"> </span><span class="kd">struct</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="nx">Nome</span><span class="w">  </span><span class="kt">string</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="nx">Idade</span><span class="w"> </span><span class="kt">int</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="p">}</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="kd">func</span><span class="w"> </span><span class="nx">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="nx">usuario</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">Pessoa</span><span class="p">{</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">        </span><span class="nx">Nome</span><span class="p">:</span><span class="w">  </span><span class="s">&quot;Enzo&quot;</span><span class="p">,</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">        </span><span class="nx">Idade</span><span class="p">:</span><span class="w"> </span><span class="mi">17</span><span class="p">,</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">    </span><span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">usuario</span><span class="p">.</span><span class="nx">Nome</span><span class="p">)</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span><span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="nx">usuario</span><span class="p">.</span><span class="nx">Idade</span><span class="p">)</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="p">}</span>
 </span></code></pre></div>
-<hr />
-<h2 id="docsmarkdownmd"><code>docs/markdown.md</code><a class="headerlink" href="#docsmarkdownmd" title="Permanent link">&para;</a></h2>
-<p>Pode ser uma página explicando:</p>
+<h2 id="como-funcionam">Como funcionam<a class="headerlink" href="#como-funcionam" title="Permanent link">&para;</a></h2>
+<p>Uma struct permite criar tipos personalizados.</p>
+<p>No exemplo acima:</p>
 <ul>
-<li>sintaxe markdown</li>
-<li>como documentar</li>
-<li>exemplos</li>
+<li><code>Nome</code> é do tipo string</li>
+<li><code>Idade</code> é do tipo int</li>
 </ul>
-<p>ou outro tema da atividade.</p>
-<hr />
-<h1 id="2-site">2. <code>site/</code><a class="headerlink" href="#2-site" title="Permanent link">&para;</a></h1>
-<p>IMPORTANTE:</p>
-<p>Você NÃO escreve nada aqui manualmente.</p>
-<p>Essa pasta é gerada automaticamente pelo Zensical.</p>
-<p>Ela contém:</p>
+<h2 id="vantagens">Vantagens<a class="headerlink" href="#vantagens" title="Permanent link">&para;</a></h2>
 <ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>sitemap</li>
-<li>páginas compiladas</li>
+<li>Organização de dados</li>
+<li>Reutilização de código</li>
+<li>Melhor estruturação do programa</li>
 </ul>
-<p>Então:</p>
-<p>✅ pode existir<br />
-❌ não precisa editar manualmente</p>
-<hr />
-<h1 id="3-zensicaltoml">3. <code>zensical.toml</code><a class="headerlink" href="#3-zensicaltoml" title="Permanent link">&para;</a></h1>
-<p>Esse arquivo configura o site.</p>
-<p>Aqui você define:</p>
-<ul>
-<li>nome</li>
-<li>diretório docs</li>
-<li>saída</li>
-<li>tema</li>
-</ul>
-<p>Exemplo simples:</p>
-<p><code>toml id="g0fq5u"
-title = "Documentação Go"</code></p>
-<p><code>toml
-`[build]`
-source = "docs"
-output = "site"</code></p>
+<h2 id="metodos-em-structs">Métodos em Structs<a class="headerlink" href="#metodos-em-structs" title="Permanent link">&para;</a></h2>
+<p>Também é possível criar métodos para structs.</p>
+<div class="language-go highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">package</span><span class="w"> </span><span class="nx">main</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="kn">import</span><span class="w"> </span><span class="s">&quot;fmt&quot;</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="kd">type</span><span class="w"> </span><span class="nx">Pessoa</span><span class="w"> </span><span class="kd">struct</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="nx">Nome</span><span class="w"> </span><span class="kt">string</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="p">}</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="kd">func</span><span class="w"> </span><span class="p">(</span><span class="nx">p</span><span class="w"> </span><span class="nx">Pessoa</span><span class="p">)</span><span class="w"> </span><span class="nx">Saudacao</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="w">    </span><span class="nx">fmt</span><span class="p">.</span><span class="nx">Println</span><span class="p">(</span><span class="s">&quot;Olá,&quot;</span><span class="p">,</span><span class="w"> </span><span class="nx">p</span><span class="p">.</span><span class="nx">Nome</span><span class="p">)</span>
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="p">}</span>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="kd">func</span><span class="w"> </span><span class="nx">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">    </span><span class="nx">usuario</span><span class="w"> </span><span class="o">:=</span><span class="w"> </span><span class="nx">Pessoa</span><span class="p">{</span>
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="w">        </span><span class="nx">Nome</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;Enzo&quot;</span><span class="p">,</span>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">    </span><span class="p">}</span>
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">    </span><span class="nx">usuario</span><span class="p">.</span><span class="nx">Saudacao</span><span class="p">()</span>
+</span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="p">}</span>
+</span></code></pre></div>
 
 
 
@@ -572,9 +608,6 @@ output = "site"</code></p>
 
 
 
-
-  
-  
 
 
 
@@ -606,7 +639,7 @@ output = "site"</code></p>
       <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
         
           
-          <a href="../channels/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Channels em Go">
+          <a href="../goroutines/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Goroutines">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
@@ -616,27 +649,11 @@ output = "site"</code></p>
                 Anterior
               </span>
               <div class="md-ellipsis">
-                Channels em Go
+                Goroutines
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../scructs/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Structs em Go">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Próximo
-              </span>
-              <div class="md-ellipsis">
-                Structs em Go
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </div>
-          </a>
         
       </nav>
     
