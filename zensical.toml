@@ -42,13 +42,13 @@ copyright = "&copy; 2026 Enzo Faria Braga"
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
- nav = [
+nav = [
    { "Início" = "index.md" },
    { "Arrays" = "arrays.md" },
    { "Channels" = "channels.md" },
    { "Goroutines" = "goroutines.md" },
    { "Structs" = "structs.md" }
- ]
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
