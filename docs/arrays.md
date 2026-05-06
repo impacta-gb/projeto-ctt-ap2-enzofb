@@ -103,6 +103,7 @@ Exemplo simples:
 ``` toml id="g0fq5u"
 title = "Documentação Go" ```
 
-``` [build]
+``` toml
+[build]
 source = "docs"
 output = "site" ```
