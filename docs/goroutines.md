@@ -1,3 +1,7 @@
+---
+icon: simple/markdown
+---
+
 # Goroutines
 
 Goroutines permitem executar funções concorrentemente.

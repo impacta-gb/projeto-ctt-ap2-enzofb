@@ -1,3 +1,7 @@
+---
+icon: simple/markdown
+---
+
 # Arrays em Go
 
 Arrays armazenam múltiplos valores do mesmo tipo.
