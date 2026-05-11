@@ -44,17 +44,17 @@ copyright = "&copy; 2026 Enzo Faria Braga"
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
   { "Início" = "index.md" },
-  { "Introdução e instalação" = "intro.md" }
+  { "Introdução e instalação" = "intro.md" },
   { "Arrays, Slices e Maps" = "arrays.md" },
   { "Channels" = "channels.md" },
   { "Goroutines" = "goroutines.md" },
   { "Structs e Métodos" = "structs.md" },
   { "Sintaxe Básica e Variáveis" = "sintaxevar.md" },
-  ,
   { "Tratamento de Erros (Error Handling)" = "errorhandling.md" },
   { "Estruturas de Controle (If, For, Switch)" = "estruturasdecontrole.md" },
-  { "Gerenciamento de Pacotes (Go Modules)" = "gomodules.md" }
+  { "Gerenciamento de Pacotes (Go Modules)" = "gomodules.md" },
   { "Testes Automatizados em Go" = "testesemgo.md" }
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
