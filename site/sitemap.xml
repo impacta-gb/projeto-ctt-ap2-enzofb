@@ -4,6 +4,9 @@
         <loc>https://impacta-gb.github.io/projeto-ctt-ap2-enzofb/</loc>
       </url>
       <url>
+        <loc>https://impacta-gb.github.io/projeto-ctt-ap2-enzofb/intro/</loc>
+      </url>
+      <url>
         <loc>https://impacta-gb.github.io/projeto-ctt-ap2-enzofb/arrays/</loc>
       </url>
       <url>
@@ -14,5 +17,20 @@
       </url>
       <url>
         <loc>https://impacta-gb.github.io/projeto-ctt-ap2-enzofb/structs/</loc>
+      </url>
+      <url>
+        <loc>https://impacta-gb.github.io/projeto-ctt-ap2-enzofb/sintaxevar/</loc>
+      </url>
+      <url>
+        <loc>https://impacta-gb.github.io/projeto-ctt-ap2-enzofb/errorhandling/</loc>
+      </url>
+      <url>
+        <loc>https://impacta-gb.github.io/projeto-ctt-ap2-enzofb/estruturasdecontrole/</loc>
+      </url>
+      <url>
+        <loc>https://impacta-gb.github.io/projeto-ctt-ap2-enzofb/gomodules/</loc>
+      </url>
+      <url>
+        <loc>https://impacta-gb.github.io/projeto-ctt-ap2-enzofb/testesemgo/</loc>
       </url>
 </urlset>
