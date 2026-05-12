@@ -69,3 +69,39 @@ func main() {
     usuario.Saudacao()
 }
 ```
+
+## Campos
+
+Structs podem armazenar vários tipos de dados.
+
+```go
+type Produto struct {
+Nome string
+Preco float64
+}
+```
+
+## Instanciando
+
+```go
+produto := Produto{
+Nome: "Notebook",
+Preco: 3500,
+}
+```
+
+## Métodos
+
+```go
+func (p Produto) Exibir() {
+fmt.Println(p.Nome)
+}
+```
+
+## Ponteiros em métodos
+
+```go
+func (p *Produto) AtualizarPreco(valor float64) {
+p.Preco = valor
+}
+```

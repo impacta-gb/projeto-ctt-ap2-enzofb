@@ -83,3 +83,42 @@ title = "Documentação Go" ```
 `[build]`
 source = "docs"
 output = "site" ```
+
+## Concorrência
+
+Go possui suporte nativo a concorrência.
+
+As goroutines executam funções simultaneamente.
+
+## Vantagens
+
+- Melhor desempenho
+- Execução paralela
+- Escalabilidade
+
+## WaitGroup
+
+```go
+package main
+
+import (
+"fmt"
+"sync"
+)
+
+func tarefa(wg *sync.WaitGroup) {
+defer wg.Done()
+
+fmt.Println("Executando")
+}
+
+func main() {
+var wg sync.WaitGroup
+
+wg.Add(1)
+
+go tarefa(&wg)
+
+wg.Wait()
+}
+```
